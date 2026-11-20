@@ -1,0 +1,136 @@
+import { StyleSheet } from 'react-native';
+
+export default StyleSheet.create({
+  ecran: {
+    flex: 1,
+    backgroundColor: '#F3F4F6',
+  },
+  header: {
+    backgroundColor: '#03163e',
+    paddingTop: 30,
+    paddingBottom: 30,
+    alignItems: 'center',
+  },
+  avatarContainer: {
+    marginBottom: 16,
+  },
+  avatar: {
+    width: 90,
+    height: 90,
+    borderRadius: 45,
+    backgroundColor: '#1E3A5F',
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderWidth: 3,
+    borderColor: '#ffffff',
+  },
+  avatarTexte: {
+    fontSize: 32,
+    fontWeight: '700',
+    color: '#ffffff',
+  },
+  nomComplet: {
+    fontSize: 22,
+    fontWeight: '700',
+    color: '#ffffff',
+    marginBottom: 4,
+  },
+  email: {
+    fontSize: 14,
+    color: '#9CA3AF',
+  },
+  statsContainer: {
+    flexDirection: 'row',
+    backgroundColor: '#ffffff',
+    marginHorizontal: 16,
+    marginTop: -25,
+    borderRadius: 16,
+    paddingVertical: 20,
+    elevation: 4,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 8,
+  },
+  statItem: {
+    flex: 1,
+    alignItems: 'center',
+  },
+  statNombre: {
+    fontSize: 20,
+    fontWeight: '700',
+    color: '#03163e',
+  },
+  statLabel: {
+    fontSize: 13,
+    color: '#6B7280',
+    marginTop: 4,
+  },
+  separateurVertical: {
+    width: 1,
+    backgroundColor: '#E5E7EB',
+  },
+  menuContainer: {
+    backgroundColor: '#ffffff',
+    marginHorizontal: 16,
+    marginTop: 24,
+    borderRadius: 16,
+    overflow: 'hidden',
+  },
+  menuItem: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingVertical: 16,
+    paddingHorizontal: 16,
+    borderBottomWidth: 1,
+    borderBottomColor: '#F3F4F6',
+  },
+  menuItemPressed: {
+    backgroundColor: '#F9FAFB',
+  },
+  menuItemGauche: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  iconContainer: {
+    width: 40,
+    height: 40,
+    borderRadius: 12,
+    backgroundColor: '#EFF6FF',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginRight: 14,
+  },
+  menuTitre: {
+    fontSize: 16,
+    color: '#111827',
+    fontWeight: '500',
+  },
+  boutonDeconnexion: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: '#ffffff',
+    marginHorizontal: 16,
+    marginTop: 24,
+    paddingVertical: 16,
+    borderRadius: 16,
+    gap: 10,
+  },
+  boutonPressed: {
+    opacity: 0.7,
+  },
+  texteDeconnexion: {
+    fontSize: 16,
+    fontWeight: '600',
+    color: '#DC2626',
+  },
+  version: {
+    textAlign: 'center',
+    color: '#9CA3AF',
+    fontSize: 13,
+    marginTop: 24,
+    marginBottom: 40,
+  },
+});
